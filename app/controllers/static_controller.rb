@@ -3,7 +3,5 @@ class StaticController < ApplicationController
     
   end
 
-  def index
-    @pets = Pet.all
-  end
+  
 end
